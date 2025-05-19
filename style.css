@@ -1,0 +1,286 @@
+.custom-navbar {
+    margin-left: auto;
+}
+.navbar-logo {
+    width: 250px;
+    height: 60px;
+}
+#navItem1 {
+    color: #323f4b;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+
+#navItem4 {
+    color: #323f4b; /*  #323f4b aac0d5 */
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+#navItem5 {
+    color: #323f4b;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+
+#navItem1:hover, #navItem2:hover, #navItem3:hover, #navItem4:hover, #navItem5:hover {
+    background: linear-gradient(90deg, #6C00FF, #FF4DC4);
+    color: transparent;
+    -webkit-background-clip: text;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#navBgTransparent{
+    background-color: transparent; 
+}
+.banner-section-bg-container {
+    height: 100vh;
+    background-image: url('./images/banner_img_with_out_content.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    color: #fff;
+    font-weight: 700;
+}
+.banner-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 300;
+}
+.custom-btn {
+    background: linear-gradient(90deg, #6C00FF, #FF4DC4);
+    color: #fff;
+    font-size: 18px;
+    width: 160px;
+    height: 38px;
+    border-radius: 20px;
+    border-width: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.albums-section-bg-container {
+    background-color: #d3d0d0;
+    border-radius: 5px;
+}
+.main-heading {
+    color: #1c1c1c;
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.album-card-bg-container{
+    cursor: pointer;
+    background-color: #fff;
+}
+.album-card-container {
+    background-color: #2f2f2f;
+    width: 100%;
+    height: 280px;
+    border-radius: 5px;
+}
+.album-card-img {
+    width: 100%;
+    height: 180px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.album-card-description {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.album-card-title {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+.album-card-title:hover {
+    text-decoration: underline;
+}
+.album-card-artist-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #c0bcbc;
+}
+
+.artist-section-bg-container {
+    background-color: #d7e0e0;
+    cursor: pointer;
+}
+.artist-card-container {
+    width: 100%;
+    height: 280px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.artist-card-img {
+    width: 80%;
+    height: 190px;
+    border-radius: 50%;
+}
+.artist-description {
+    font-family: "Roboto", sans-serif;
+}
+.artist-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #131313;
+}
+.artist-role {
+    font-size: 17px;
+    font-weight: 500;
+    color: #111010;
+}
+.artist-card-container:hover {
+    background-color: #31383f;
+}
+.artist-card-container:hover .artist-name {
+    color: #fff;
+}
+.artist-card-container:hover .artist-role {
+    color: #c0bcbc;
+}
+.playlist-section-bg-container {
+    background-color: #b9b0bac8;
+}
+.playlist-section-card {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.playlist-card-img-section {
+    width: 35%;
+}
+.playlist-card-img {
+    width: 100%;
+    height: 150px;
+    border-radius: 7px;
+    border: 2px solid #111010;
+}
+.playlist-card-artist-name {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+}
+.playlist-card-description {
+    width: 65%;
+    font-family: "Roboto", sans-serif;
+}
+.playlist-card-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #131313;
+}
+.playlist-section-card:hover {
+    background-color: #31383f;
+}
+.playlist-section-card:hover .playlist-card-img{
+    border-color: #fff;
+}
+.playlist-section-card:hover .playlist-card-artist-name{
+    color: #fff;
+}
+.playlist-section-card:hover .playlist-card-title{
+    color: #c0bcbc;
+}
+.musiczone-footer-section {
+    background-color: #14344d;
+}
+
+.musiczone-footer-section-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.musiczone-footer-section-name {
+    font-family: "Roboto", sans-serif;
+    color: #cb7723;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.musiczone-footer-section-role {
+    color: #9aa5b1;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.musiczone-footer-section-title {
+    color: #ec8b03;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.musiczone-footer-section-details {
+    color: #9aa5b1;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.musiczone-footer-section-icons {
+    color: #9aa5b1;
+    font-size: 24px;
+}
+
+.musiczone-footer-copy-right-section {
+    background-color: #02223a;
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+}
+.contact-us-section-bg-container {
+    background: linear-gradient(90deg, #6C00FF, #FF4DC4);
+    height: 100vh;
+    cursor: pointer;
+}
+.contact-us-heading {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+}
+.contact-us-para {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.form-section {
+    background-color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+}
+.label-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.input-field {
+    font-size: 16px;
+    border-color: #131313;
+    border-radius: 3px;
+}
